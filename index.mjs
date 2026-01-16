@@ -2,7 +2,7 @@ import { OpenPaymentsClientError } from '@interledger/open-payments'
 import readline from "readline/promises"
 import { client } from './clients.mjs'
 
-;(async () => {
+(async () => {
   try {
       // grabbing wallet
       const address = await client.walletAddress.get({
