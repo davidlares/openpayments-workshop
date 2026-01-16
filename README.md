@@ -18,7 +18,7 @@ The script automates the communication between a Sender and a Receiver (Store) u
 
 You'll need to create your own .env file
 
-We have `WALLET_ADDRESS` as the Open Payments URL for the Sender wallet and `STORE_WALLET_ADDRESS` as the Open Payments URL for the Receiver wallet.
+We have `WALLET_ADDRESS` as the Open Payments URL for the Sender wallet, `STORE_WALLET_ADDRESS` as the Open Payments URL for the Receiver wallet and the `PRIVATE_KEY_PATH` that should point the path of your `.pem` file required to set up your test wallet.
 
 ## Usage 
 
